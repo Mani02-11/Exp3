@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:paddingTop="60dp">
+
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/txtHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Explorer"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/txtInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtHeading"
+        android:layout_marginTop="8dp"
+        android:text="Select a course to view its details."
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Course List -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtInfo"
+        android:layout_above="@id/txtUSN"
+        android:layout_marginTop="20dp"/>
+
+    <!-- USN -->
+    <TextView
+        android:id="@+id/txtUSN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Name : Manikandan P"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/txtName"/>
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="USN : 25MCAR0186"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
