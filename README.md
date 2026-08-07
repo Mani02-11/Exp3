@@ -1,4 +1,4 @@
-<img width="1080" height="2460" alt="1000157455" src="https://github.com/user-attachments/assets/acd598ae-484f-40f3-8584-ffd6e34035af" /># 📱 Android Lab Experiment 3 – Fragments and Debugging
+# 📱 Android Lab Experiment 3 – Fragments and Debugging
 
 A simple Android application developed using **Android Studio** and **Kotlin** as part of the **Mobile Application Development Lab**. The application demonstrates the use of **Fragments** to create a flexible user interface. The first Fragment displays a list of computer science courses, while the second Fragment displays detailed information about the selected course. The project also demonstrates Android Studio debugging using **Normal Breakpoints** and **Conditional Breakpoints**.
 
@@ -114,7 +114,7 @@ The debugger pauses only when **Android** is selected.
 - The heading **Course Explorer** is visible.
 - Name and USN are displayed at the bottom-center of the main screen.
 
-**Screenshot:** <img width="1080" height="2460" alt="1000157455" src="https://github.com/user-attachments/assets/671509ab-c0fa-4578-95a0-9af0d79ea4f7" />
+**Screenshot:** <img width="400" height="600" alt="1000157455" src="https://github.com/user-attachments/assets/671509ab-c0fa-4578-95a0-9af0d79ea4f7" />
 
 
 ---
@@ -129,7 +129,7 @@ The debugger pauses only when **Android** is selected.
 - The course description, duration, topics covered, and career roles are displayed correctly.
 - The Detail Fragment loads successfully.
 
-**Screenshot:** <img width="1080" height="2460" alt="1000157456" src="https://github.com/user-attachments/assets/d5faecca-3d65-4278-9749-6a8457d25d1c" />
+**Screenshot:** <img width="400" height="600" alt="1000157456" src="https://github.com/user-attachments/assets/d5faecca-3d65-4278-9749-6a8457d25d1c" />
 
 
 ---
@@ -145,7 +145,7 @@ The debugger pauses only when **Android** is selected.
 - Variable values and the Call Stack were successfully inspected.
 
 
-**Screenshot:** <img width="1287" height="715" alt="image" src="https://github.com/user-attachments/assets/e08e77b1-30d0-4157-b4bc-2e27377e7b27" />
+**Screenshot:** <img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/e08e77b1-30d0-4157-b4bc-2e27377e7b27" />
 
 
 ---
