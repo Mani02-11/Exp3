@@ -1,4 +1,4 @@
-# 📱 Android Lab Experiment 3 – Fragments and Debugging
+<img width="1080" height="2460" alt="1000157455" src="https://github.com/user-attachments/assets/acd598ae-484f-40f3-8584-ffd6e34035af" /># 📱 Android Lab Experiment 3 – Fragments and Debugging
 
 A simple Android application developed using **Android Studio** and **Kotlin** as part of the **Mobile Application Development Lab**. The application demonstrates the use of **Fragments** to create a flexible user interface. The first Fragment displays a list of computer science courses, while the second Fragment displays detailed information about the selected course. The project also demonstrates Android Studio debugging using **Normal Breakpoints** and **Conditional Breakpoints**.
 
@@ -112,8 +112,10 @@ The debugger pauses only when **Android** is selected.
 - The application opens without errors.
 - The course list is displayed.
 - The heading **Course Explorer** is visible.
+- Name and USN are displayed at the bottom-center of the main screen.
 
-**Screenshot:** `screenshots/testcase1.png`
+**Screenshot:** <img width="1080" height="2460" alt="1000157455" src="https://github.com/user-attachments/assets/671509ab-c0fa-4578-95a0-9af0d79ea4f7" />
+
 
 ---
 
@@ -127,22 +129,24 @@ The debugger pauses only when **Android** is selected.
 - The course description, duration, topics covered, and career roles are displayed correctly.
 - The Detail Fragment loads successfully.
 
-**Screenshot:** `screenshots/testcase2.png`
+**Screenshot:** <img width="1080" height="2460" alt="1000157456" src="https://github.com/user-attachments/assets/d5faecca-3d65-4278-9749-6a8457d25d1c" />
+
 
 ---
 
-### Test Case 3: Verify Student Details
+### Test Case 3: Verify Debugging Using Normal and Conditional Breakpoints
 
-**Objective:** Verify that the main screen displays the student's Name and USN correctly.
+**Objective:** Verify the application's debugging functionality using both a Normal Breakpoint and a Conditional Breakpoint.
 
 **Expected Result:**
 
-- Name: **Manikandan P**
-- USN: **25MCAR0186**
-- Name and USN are displayed at the bottom-center of the main screen.
-- The application functions correctly after displaying the student details.
+- The debugger paused at the Normal Breakpoint for every course selection.
+- The Conditional Breakpoint paused execution only when **Android** was selected.
+- Variable values and the Call Stack were successfully inspected.
 
-**Screenshot:** `screenshots/testcase3.png`
+
+**Screenshot:** <img width="1287" height="715" alt="image" src="https://github.com/user-attachments/assets/e08e77b1-30d0-4157-b4bc-2e27377e7b27" />
+
 
 ---
 
